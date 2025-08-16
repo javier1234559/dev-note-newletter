@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Providers from "@/components/layout/provider";
-import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: "Social Media Dashboard",
-  description: "Curated posts from TikTok, Instagram, and Facebook",
+  title: "Dev note Newsletter",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
+  description: "A newsletter for developers to share new tools and resources.",
 };
 
 export default function RootLayout({
